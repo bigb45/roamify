@@ -1,4 +1,4 @@
-// File: C:\Users\bgd45\Desktop\react\Roamify app\roamify-frontend\front\src\app\page.tsx
+// File: C:\Users\bgd45\Desktop\react\Roamify app\front\src\app\page.tsx
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

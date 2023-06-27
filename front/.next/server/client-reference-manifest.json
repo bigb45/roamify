@@ -56,9 +56,17 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/getDestination/page.tsx": {
+    "(app-client)/./node_modules/next/dist/client/image.js": {
       "*": {
-        "id": "(sc_client)/./src/app/getDestination/page.tsx",
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -87,11 +95,27 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./src/app/login/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/login/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/signup/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/signup/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
   "clientModules": {
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -99,7 +123,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -107,7 +131,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -115,7 +139,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -123,7 +147,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -131,7 +155,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -139,7 +163,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -147,7 +171,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -155,7 +179,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -163,7 +187,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -171,7 +195,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -179,7 +203,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -187,7 +211,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -195,7 +219,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -203,7 +227,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -211,7 +235,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -219,7 +243,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -227,7 +251,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -235,7 +259,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -243,7 +267,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -251,15 +275,39 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\src\\app\\getDestination\\page.tsx": {
-      "id": "(app-client)/./src/app/getDestination/page.tsx",
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\client\\image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/getDestination/page:static/chunks/app/getDestination/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\src\\app\\page.tsx": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\esm\\client\\image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\shared\\lib\\head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\src\\app\\page.tsx": {
       "id": "(app-client)/./src/app/page.tsx",
       "name": "*",
       "chunks": [
@@ -267,7 +315,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\client\\link.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
@@ -275,7 +323,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\dist\\esm\\client\\link.js": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\dist\\esm\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
@@ -283,32 +331,52 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\src\\app\\header.tsx": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\src\\app\\header.tsx": {
       "id": "(app-client)/./src/app/header.tsx",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
+    },
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\src\\app\\login\\page.tsx": {
+      "id": "(app-client)/./src/app/login/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/login/page:static/chunks/app/login/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\src\\app\\signup\\page.tsx": {
+      "id": "(app-client)/./src/app/signup/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/signup/page:static/chunks/app/signup/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\src\\app\\getDestination\\page": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\src\\app\\page": {
       "modules": [],
       "files": []
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\src\\app\\page": {
-      "modules": [],
-      "files": []
-    },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\src\\app\\layout": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\src\\app\\layout": {
       "modules": [
-        "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\src\\app\\globals.css",
-        "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\roamify-frontend\\front\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+        "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\src\\app\\globals.css",
+        "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
       ],
       "files": [
         "static/css/app/layout.css"
       ]
+    },
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\src\\app\\login\\page": {
+      "modules": [],
+      "files": []
+    },
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\src\\app\\signup\\page": {
+      "modules": [],
+      "files": []
     }
   }
 }
