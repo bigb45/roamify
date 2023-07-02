@@ -96,9 +96,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/login/page.tsx": {
+    "(app-client)/./src/app/getDestination/page.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/login/page.tsx",
+        "id": "(sc_client)/./src/app/getDestination/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -107,6 +107,14 @@
     "(app-client)/./src/app/signup/page.tsx": {
       "*": {
         "id": "(sc_client)/./src/app/signup/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/login/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/login/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -339,11 +347,11 @@
       ],
       "async": false
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\src\\app\\login\\page.tsx": {
-      "id": "(app-client)/./src/app/login/page.tsx",
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\src\\app\\getDestination\\page.tsx": {
+      "id": "(app-client)/./src/app/getDestination/page.tsx",
       "name": "*",
       "chunks": [
-        "app/login/page:static/chunks/app/login/page.js"
+        "app/getDestination/page:static/chunks/app/getDestination/page.js"
       ],
       "async": false
     },
@@ -352,6 +360,14 @@
       "name": "*",
       "chunks": [
         "app/signup/page:static/chunks/app/signup/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\src\\app\\login\\page.tsx": {
+      "id": "(app-client)/./src/app/login/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/login/page:static/chunks/app/login/page.js"
       ],
       "async": false
     }
@@ -370,11 +386,15 @@
         "static/css/app/layout.css"
       ]
     },
-    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\src\\app\\login\\page": {
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\src\\app\\getDestination\\page": {
       "modules": [],
       "files": []
     },
     "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\src\\app\\signup\\page": {
+      "modules": [],
+      "files": []
+    },
+    "C:\\Users\\bgd45\\Desktop\\react\\Roamify app\\front\\src\\app\\login\\page": {
       "modules": [],
       "files": []
     }

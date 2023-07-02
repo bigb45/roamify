@@ -19,31 +19,39 @@ const Login = () => {
   const [password, setPassword] = useState("");
   return (
     <div className="flex min-h-screen flex-col items-center p-24">
-      <h1>LOGIN</h1>
       <form action="submit" onSubmit={handleLoginSubmit}>
-        <div className="flex flex-col space-y-4 p-5 bg-slate-400 rounded-sm items-center">
+        <div className="flex flex-col space-y-4 p-10  bg-slate-100 rounded-sm items-center shadow-lg">
+          <h1 className="text-2xl">LOGIN</h1>
           <input
-            className="p-1 rounded-sm"
+            className="p-1 rounded-sm border border-slate-500"
             type="email"
             placeholder="Email"
             onChange={(e) => {
               setEmail(e.target.value);
             }}
           />
-          <input
-            className="p-1 rounded-sm"
-            type="password"
-            placeholder="Password"
-            onChange={(e) => {
-              setPassword(e.target.value);
-            }}
-          />
+          <div className="flex flex-col space-y-2">
+            <input
+              className="p-1 rounded-sm border border-slate-500"
+              type="password"
+              placeholder="Password"
+              onChange={(e) => {
+                setPassword(e.target.value);
+              }}
+            />
+            <a href="signup" className="text-xs text-blue-500">
+              Forgot password?
+            </a>
+          </div>
           <button
             type="submit"
-            className="bg-slate-50 w-[100px] rounded-sm p-3 "
+            className="border bg-sky-500 text-white w-[100px] rounded-md px-3 py-2"
           >
-            Sign up!
+            Log in
           </button>
+          <a href="signup" className="text-xs text-blue-500 underline">
+            Signup
+          </a>
         </div>
       </form>
     </div>

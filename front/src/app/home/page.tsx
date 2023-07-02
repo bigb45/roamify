@@ -4,12 +4,13 @@ import Image from "next/image";
 
 const Home = () => {
   return (
-    <div className="items-center justify-center flex pt-[100px]">
+    <div className="items-center justify-around flex pt-[100px]">
       <Image
-        width={700}
-        height={800}
+        width={1000}
+        height={1000}
         src="/assets/landing-page-image.jpg"
         alt="picture of woman facing lake"
+        className=""
       />
       <div className="w-[600px]  p-[70px]">
         <p className="pb-5 text-5xl bold font-extrabold">Roam Free.</p>

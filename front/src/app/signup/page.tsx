@@ -19,12 +19,13 @@ const Signup = () => {
     }
   };
   return (
-    <div className="flex min-h-screen flex-col items-center  p-24">
-      <h1>SIGNUP</h1>
+    <div className="flex min-h-screen flex-col items-center p-24">
       <form action="submit">
-        <div className="flex flex-col space-y-4 p-5 bg-slate-400 rounded-sm items-center">
+        <div className="flex flex-col space-y-4 p-10  bg-slate-100 rounded-sm items-center shadow-lg">
+          <h1 className="text-2xl">SIGNUP</h1>
+
           <input
-            className="p-1 rounded-sm"
+            className="p-1 rounded-sm border border-slate-500"
             type="text"
             placeholder="Name"
             onChange={(e) => {
@@ -32,7 +33,7 @@ const Signup = () => {
             }}
           />
           <input
-            className="p-1 rounded-sm"
+            className="p-1 rounded-sm border border-slate-500"
             type="email"
             placeholder="Email"
             onChange={(e) => {
@@ -40,7 +41,7 @@ const Signup = () => {
             }}
           />
           <input
-            className="p-1 rounded-sm"
+            className="p-1 rounded-sm border border-slate-500"
             type="password"
             placeholder="Password"
             onChange={(e) => {
@@ -49,11 +50,14 @@ const Signup = () => {
           />
           <button
             type="submit"
-            className="bg-slate-50 w-[100px] rounded-sm p-3"
+            className="border bg-sky-500 text-white w-[100px] rounded-md px-3 py-2"
             onClick={handleSignupSubmit}
           >
-            Sign up!
+            Sign up
           </button>
+          <a href="login" className="text-xs text-blue-500 underline">
+            Login
+          </a>
         </div>
       </form>
     </div>

@@ -14,7 +14,9 @@ function Header() {
           <div className="flex items-center space-x-10 p-3">
             <Link href="/">Home</Link>
             <Link href="/getDestination">Find Location</Link>
-            <Link href="/signup">Add Location</Link>
+            <Link href="" className="text-slate-300">
+              Add Location
+            </Link>
             <Link href="/login">Login</Link>
           </div>
         </div>
